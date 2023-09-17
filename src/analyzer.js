@@ -5,31 +5,23 @@ const analyzer = {
       return 0;
     }
     const words = text.split(/\s+/);
-    return words.length;
-    //return palabras.length;
-
-    //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
+    return words.length;   
   },
   getCharacterCount: (text) => {
-
     return text.length;
-    //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
   },
   getCharacterCountExcludingSpaces: (text) => {
     if (text === "") {
       return 0;
     } else {
       const characters = text.match(/[a-zA-Z0-9]/g);
-
       if (characters === null) {
         return 0;
       }
       return characters.length;
     }
-    //TODO: esta función debe retornar el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
   },
   getAverageWordLength: (text) => {
-
     if (!text.match(/[a-zA-Z0-9]/)) {
       return 0
     }
@@ -37,7 +29,7 @@ const analyzer = {
     let lengthSum = 0;
 
     for (let i = 0; i < words.length; i++) {
-      const length = words.length;
+      const length = words[i].length;
       lengthSum += length;
     }
     const averageLength = lengthSum / words.length;
