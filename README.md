@@ -11,7 +11,7 @@ Se decidió solo agregar un titulo, los elementos donde se muestran los resultad
 
 Luego durante el proceso de diseño se escogieron colores, gracias al feedback de distintos usuarios estos se cambiaron, tambíen se cambiaron las fuentes y el orden y tamaño de algunos elementos. Llegando al diseño del resultado final.
 
-
+![image](Final-text-analyzer.PNG)
 
 # Autor del proyecto
 
