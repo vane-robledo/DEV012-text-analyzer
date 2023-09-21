@@ -1,11 +1,10 @@
 const analyzer = {
   getWordCount: (text) => {
-    text = text.trim();
-    if (text === "" || !/[a-zA-Z0-9]/.test(text)) {
+    if (text === "" || (!text.match(/[a-zA-Z0-9]/))) {
       return 0;
     }
     const words = text.split(/\s+/);
-    return words.length;   
+    return words.length;
   },
   getCharacterCount: (text) => {
     return text.length;
@@ -23,9 +22,9 @@ const analyzer = {
   },
   getAverageWordLength: (text) => {
     if (!text.match(/[a-zA-Z0-9]/)) {
-      return 0
+      return 0;
     }
-    const words = text.split(/\s+/); //arreglo con palabras separadas de a una
+    const words = text.split(/\s+/);
     let lengthSum = 0;
 
     for (let i = 0; i < words.length; i++) {
@@ -33,7 +32,7 @@ const analyzer = {
       lengthSum += length;
     }
     const averageLength = lengthSum / words.length;
-    return parseFloat(averageLength.toFixed(2))
+    return parseFloat(averageLength.toFixed(2));
   },
   getNumberCount: (text) => {
     const numbers = text.match(/\b\d+(\.\d+)?\b/g)
@@ -41,7 +40,7 @@ const analyzer = {
       return 0;
     } else {
       return numbers.length;
-      //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
+
     }
   },
   getNumberSum: (text) => {
@@ -51,11 +50,12 @@ const analyzer = {
       return 0;
     }
     for (let i = 0; i < numbers.length; i++) {
-      sum += parseFloat(numbers[i]);
+      sum += parseFloat(numbers[i])
     }
     return sum
+    
+
   }
 
-}
-  ;
+};
 export default analyzer;

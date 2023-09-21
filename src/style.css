@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Passion+One&display=swap');
+
+body {
+    font-family: 'Mooli', sans-serif;
+    background-color: #cececf;
+    text-align: center;
+}
+
+header {
+    background-color: #be69da;
+    font-size: xx-large;
+    font-family: 'Passion One', cursive;
+    text-align: center;
+    color: #e6e5e6;
+}
+h1 {
+    margin: 0px 0px 0px 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul {
+    text-align: center;
+    width: 60%;
+    margin-left: 18%;
+}
+
+div[name="content"] {
+    background-color: white;
+}
+
+.count {
+    display: inline-block;
+    list-style-type: none;
+    background-color: white;
+    background-size: contain;
+    width: 30%;
+    margin-top: 10px;
+    border-radius: 4px;
+    margin-right: 15px;
+    border: solid white;
+
+}
+
+textarea[name="user-input"] {
+    margin-top: 20px;
+    width: 900px;
+    height: 350px;
+}
+
+#reset-button {
+    font-family: 'Mooli', 'sans-serif';
+    display: block;
+    margin: auto;
+    margin-top: 2%;
+    width: 10%;
+    font-size: x-large;
+    background-color: #be69da;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#reset-button:hover {
+    transform: translateY(2px);
+    background-color: #c88fda;
+}
+
+footer {
+    text-align: end;
+    color: grey;
+    margin-top: 3%;
+}
