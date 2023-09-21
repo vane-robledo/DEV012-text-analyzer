@@ -8,7 +8,7 @@ const numberCount = document.querySelector('li[data-testid="number-count"]');
 const numberSum = document.querySelector('li[data-testid="number-sum"]');
 const averageWordLength = document.querySelector('li[data-testid="word-length-average"]');
 
-wordCount.textContent = "Words: 0"
+wordCount.textContent = "Words: 0";
 characterCount.textContent = "Characters: 0";
 charactersNoSpaces.textContent = "Characters excluding spaces: 0";
 numberCount.textContent = "Numbers: 0";
@@ -22,7 +22,7 @@ textinput.addEventListener("input", function() {
   charactersNoSpaces.textContent ="Characters excluding spaces: " + analyzer.getCharacterCountExcludingSpaces(text);
   averageWordLength.textContent= "Average word length: " + analyzer.getAverageWordLength(text);
   numberCount.textContent = "Numbers: " + analyzer.getNumberCount(text);
-  numberSum.textContent = "Number Sum: " + analyzer.getNumberSum(text);
+  numberSum.textContent = "Numbers Sum: " + analyzer.getNumberSum(text);
 });
 
 document.getElementById("reset-button").addEventListener("click", function () {
