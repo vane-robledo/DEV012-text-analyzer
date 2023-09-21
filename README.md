@@ -5,7 +5,7 @@ El analizador de texto es una herramienta para poder encontrar en cualquier text
 # Diseño y prototipo
 
 Primero se realizó un prototipo de baja fidelidad para tener una idea básica del orden de los elementos, en esta etapa no se eligieron colores, ni fuentes. Se escogió un diseño minimalista, claro y facil de utilizar, evitando distracciones visuales y sobrecarga de elementos.
-Se decidió solo agregar un titulo, los elementos donde se muestran los resultados y el area de texto, además de un botón que te permite limpiar el area de texto y los resultados para poder volver a usar el analizador de texto nuevamente.
+Se decidió solo agregar un titulo, los elementos donde se muestran los resultados y el area de texto, además de un botón que te permite limpiar el area de texto y los resultados para poder volver a usar el analizador de texto.
 
 ![image](proto-baja-text-analyzer.PNG)
 
