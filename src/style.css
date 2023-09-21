@@ -69,10 +69,6 @@ textarea[name="user-input"] {
 }
 
 footer {
-    text-align: end;
     color: grey;
-    margin-top: 3%;
-    position:absolute;
-    bottom: 0;
-    margin-left: 89%;
+    display: flex-end;
 }
