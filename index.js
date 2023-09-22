@@ -1,6 +1,6 @@
 import analyzer from './analyzer.js';
 
-const textinput = document.querySelector('textarea');
+const textinput = document.querySelector('textarea[name="user-input"]');
 const wordCount = document.querySelector('li[data-testid="word-count"]');
 const characterCount = document.querySelector('li[data-testid="character-count"]');
 const charactersNoSpaces = document.querySelector('li[data-testid="character-no-spaces-count"]');
